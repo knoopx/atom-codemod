@@ -1,0 +1,26 @@
+{
+  "name": "atom-codemod",
+  "main": "./lib/main",
+  "version": "0.0.1",
+  "description": "Lists and apply codemods",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/knoopx/atom-codemod.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "2.2.0",
+    "babel-preset-es2015": "6.14.0",
+    "glob-promise": "1.0.6"
+  },
+  "devDependencies": {},
+  "apmInstallSource": {
+    "type": "git",
+    "source": "knoopx/atom-codemod",
+    "sha": "7aa26a7d8880c3c03aa4a2e1cbadfc611873e4d9"
+  }
+}

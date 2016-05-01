@@ -1,0 +1,26 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+  ],
+  "extends": [
+    "eslint:recommended",
+  ],
+  "env": {
+    "browser": false,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "semi": ["warn", "never"],
+    "comma-dangle": ["warn", "never"],
+    "newline-per-chained-call": ["warn"],
+    "object-shorthand": ["warn", "always"],
+    "object-curly-spacing": ["warn", "never"],
+    "array-bracket-spacing": ["warn", "never"],
+    "indent": ["warn", 2, {SwitchCase: 1, VariableDeclarator: 1, outerIIFEBody: 1}],
+    "prefer-const": ["warn"],
+    "no-console": ["off"],
+    "quotes": ["warn", "single"],
+    "no-else-return": ["warn"]
+  }
+}
